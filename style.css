@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+#resgistroProducto{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+}
+
+#inputCodigo{
+    width: 100px;
+}
+
+#inputNombre{
+    width: 250px;
+}
+
+#inputDescripcion{
+    width: 250px;
+    height: 70px;
+}
+
+#inputPrecio{
+    width: 100px;
+}
+
+.botonFinal{
+    justify-content: center;
+}
