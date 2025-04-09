@@ -2,7 +2,7 @@ h1{
     text-align: center;
 }
 
-#resgistroProducto{
+#registroProducto{
     border: 1px solid black;
     border-radius: 15px;
     padding: 20px;
@@ -28,4 +28,13 @@ h1{
 
 .botonFinal{
     justify-content: center;
+}
+
+#mostrarProducto {
+    padding: 20px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
 }

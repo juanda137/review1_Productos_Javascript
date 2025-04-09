@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manipulación DOM</title>
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <h1>mi app</h1>
-    <input type="button" value="registrar producto">
+    <input type="button" value="registrar producto" id="mostrarRegistro">
+    <input type="button" value="lista productos" id="listaProductos">
     <br>
-    <section id="resgistroProducto">
+    <section id="registroProducto">
         <div>
             <p>codigo</p>
             <input type="text" id="inputCodigo" class="boton" value="">
@@ -34,6 +32,12 @@
         <input type="button" value="guardar" id="inputGuardar" class="botonFinal">
         <input type="button" value="eliminar" id="inputEliminar" class="botonFinal">
     </section>
-    <script src="/js/main.js"></script>
+    <section id="ultimoProductoCreado">
+
+    </section>
+    <section id="mostrarProducto">
+
+    </section>
+    <script src="/main.js"></script>
 </body>
 </html>
